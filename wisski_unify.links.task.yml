@@ -1,0 +1,24 @@
+configuration.wisski_unify.external:
+  route_name: wisski.wisski_unify.external
+  base_route: wisski.wisski_unify
+  title: Search external WissKi
+configuration.wisski_unify.external.pb:
+  route_name: wisski.wisski_unify.external.pb
+  base_route: wisski.wisski_unify
+  title: Search external WissKi
+configuration.wisski_unify.delete:
+  route_name: wisski.wisski_unify.delete
+  base_route: wisski.wisski_unify
+  title: Delete Links
+configuration.wisski_unify.config:
+  route_name: wisski.wisski_unify.config
+  base_route: wisski.wisski_unify
+  title: Settings
+configuration.wisski_unify.test:
+  route_name: wisski.wisski_unify.test
+  base_route: wisski.wisski_unify
+  title: PLS HALP
+configuration.wisski_unify:
+  route_name: wisski.wisski_unify
+  base_route: wisski.wisski_unify
+  title: Search local WissKi

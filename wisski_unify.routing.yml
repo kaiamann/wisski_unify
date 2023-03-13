@@ -1,0 +1,75 @@
+wisski.wisski_unify:
+  path: '/admin/config/wisski/unify'
+  defaults:
+    _form: '\Drupal\wisski_unify\Form\WisskiUnifyForm'
+    _title: 'Unify'
+  requirements:
+    _permission: 'administer wisski'
+
+wisski.wisski_unify.external:
+  path: 'admin/config/wisski/unify/external'
+  defaults:
+    _form: '\Drupal\wisski_unify\Form\WissKiTestForm'
+    _title: 'Search external WissKI'
+  requirements:
+    _permission: 'administer wisski'
+
+
+wisski.wisski_unify.external.pb:
+  path: 'admin/config/wisski/unify/external/pb'
+  defaults:
+    _form: '\Drupal\wisski_unify\Form\WisskiExternalUnifyWithPBForm'
+    _title: 'Search external WissKI with PB'
+  requirements:
+    _permission: 'administer wisski'
+
+wisski.wisski_unify.delete:
+  path: 'admin/config/wisski/unify/delete'
+  defaults:
+    _form: '\Drupal\wisski_unify\Form\UnifyDeleteForm'
+    _title: 'Delete Links'
+  requirements:
+    _permission: 'administer wisski'
+
+wisski.wisski_unify.config:
+  path: 'admin/config/wisski/unify/config'
+  defaults:
+    _form: '\Drupal\wisski_unify\Form\UnifyConfigForm'
+    _title: 'Settings'
+  requirements:
+    _permission: 'administer wisski'
+
+wisski.wisski_unify.test:
+  path: 'admin/config/wisski/unify/test'
+  defaults:
+    # _controller: '\Drupal\wisski_unify\Entity\UnifyListBuilder::render'
+    _entity_list: 'wisski_individual'
+    _title: 'GOD HELP ME'
+  requirements:
+    _permission: 'administer wisski'
+  
+
+
+# Controller endpoints
+#wisski.wisski_unify.controller.test:
+#  path: 'admin/config/wisski/unify/controller/test'
+#  defaults:
+#    _controller: '\Drupal\wisski_unify\Controller\UnifyController::test'
+#  requirements:
+#    _permission: 'administer wisski'
+
+#wisski.wisski_unify.controller.action:
+#  path: 'admin/config/wisski/unify/controller/action'
+#  defaults:
+#    _controller: '\Drupal\wisski_unify\Controller\UnifyController::action'
+#  requirements:
+#    _permission: 'administer wisski'
+
+#wisski.wisski_unify.controller.entities:
+#  path: 'admin/config/wisski/unify/controller/entities'
+#  defaults:
+#    _controller: '\Drupal\wisski_unify\Controller\UnifyController::getEntities'
+#  requirements:
+#    _permission: 'administer wisski'
+
+

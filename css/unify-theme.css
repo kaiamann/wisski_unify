@@ -1,0 +1,28 @@
+.match {
+  color:green;
+}
+.match a {
+  color:green;
+  text-decoration: none;
+}
+
+.conflict {
+  color:red;
+}
+.conflict a {
+  color:red;
+  text-decoration:none;
+}
+
+.table {
+  table-layout: fixed;
+}
+
+.neutral a {
+  text-decoration:none;
+}
+
+.label {
+  font-weight: bold;
+  color:grey;
+}

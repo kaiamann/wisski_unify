@@ -1,0 +1,37 @@
+
+<?php
+
+/**
+ * Implements hook_schema().
+ */
+// function wisski_statistics_schema() {
+//   $schema['cache_wisski_unify'] = [
+//     'fields' => [
+//       'wisski_url' => [
+//         'type' => 'varchar',
+//         'length' => 255,
+//         'not null' => TRUE,
+//         'default' => '',
+//       ],
+//       'uri' => [
+//         'type' => 'varchar',
+//         'length' => 255,
+//         'not null' => TRUE,
+//         'default' => '',
+//       ],
+//       'entity_data' => [
+//         'type' => 'varchar',
+//         'length' => 255,
+//         'not null' => FALSE,
+//       ],
+//       'unified' => [
+//         'type' => 'int',
+//         'not null' => TRUE,
+//         'default' => 0,
+//       ],
+//     ],
+//     'primary key' => ['wisski_url', 'uri'],
+//   ];
+
+//   return $schema;
+// }

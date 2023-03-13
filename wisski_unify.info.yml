@@ -1,0 +1,16 @@
+name: WissKI Unify 
+description: A module to merge duplicates in data
+core: 8.x
+package: WissKI
+# version: 0.1-dev
+type: module
+core_version_requirement: ^8 || ^9
+configure: wisski_unify.wisski_unify
+dependencies:
+  - wisski:wisski_core
+libraries:
+  - wisski_unify/unify-theme
+# Information added by Drupal.org packaging script on 2022-03-03
+version: '8.x-3.5'
+project: 'wisski'
+datestamp: 1646317031

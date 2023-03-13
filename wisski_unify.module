@@ -1,0 +1,18 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+function isEscaped(string $uri){
+    $res = preg_match('/^<.*>$/', $uri);
+    if ($res === 1) {
+        return true;
+    }
+    return false;
+}
+
+function escape(string $uri): string {
+    if (isEscaped($uri)) {
+        return $uri;
+    }
+    return "<$uri>";
+}

@@ -1,0 +1,9 @@
+# Custom ontology
+# Graphs
+unify: 
+  base: 'http://unify-ontology.org'
+  copy_of: 'P1_copy_of'
+  has_url: 'P3_has_url'
+  has_uri_prefix: 'P2_has_uri_prefix'
+  wisski:  'E1_WissKI'
+
